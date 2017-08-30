@@ -1,0 +1,7 @@
+# SSCPI Environment Configuration
+
+# Custom system wide environment
+SSCPI_ENVVARS=/etc/profile.d/custom.sh
+
+# SSCPI installation destination
+SSCPI_DEST=/usr/local
