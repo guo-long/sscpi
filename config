@@ -1,7 +1,13 @@
 # SSCPI Environment Configuration
 
-# Custom system wide environment
-SSCPI_ENVVARS=/etc/profile.d/custom.sh
-
 # SSCPI installation destination
-SSCPI_DEST=/usr/local
+#SSCPI_DEST=/usr/local
+SSCPI_DEST=/home/steven/dest
+
+SSCPI_TMP=/home/steven/sscpi
+
+# Custom system wide environment
+SSCPI_ENVVARS=/etc/profile.d/sscpi.sh
+
+# Download URL
+git_url=https://www.kernel.org/pub/software/scm/git/git-2.14.1.tar.gz
